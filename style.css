@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
+
+.sitetitle {
+font-family: 'Epilogue', sans-serif;
+}
+
+.sitedescription {
+    font-family: 'Epilogue', sans-serif;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+.redtext {
+color: #D22B2B; 
+}
+
+.launchbtn {
+background-color: #D22B2B;
+color: #fff;
+font-size: 16px;
+font-family: 'Epilogue', sans-serif;
+cursor: pointer;
+border: none;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+border-radius: 20px;
+}
