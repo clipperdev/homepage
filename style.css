@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .sitetitle {
 font-family: 'Epilogue', sans-serif;
@@ -20,6 +21,7 @@ color: #D22B2B;
 .launchbtn {
 background-color: #D22B2B;
 color: #fff;
+font-weight: 300;
 font-size: 16px;
 font-family: 'Epilogue', sans-serif;
 cursor: pointer;
@@ -34,6 +36,7 @@ border-radius: 20px;
 
 .footer {
 font-family: 'Inter', sans-serif;
+font-weight: 600;
 padding-top: 2px;
 padding-left: 10px;
 padding-right: 10px;
