@@ -4,12 +4,10 @@
 
 .sitetitle {
 font-family: 'Epilogue', sans-serif;
-padding-bottom: 2px;
 }
 
 .sitedescription {
     font-family: 'Epilogue', sans-serif;
-    padding-top: 2px;
     padding-left: 10px;
     padding-right: 10px;
     }
@@ -41,6 +39,7 @@ padding-top: 2px;
 padding-left: 10px;
 padding-right: 10px;
 }
+
 @keyframes float {
     0% { transform: translatey(0px); }
     50% { transform: translatey(-10px); }
