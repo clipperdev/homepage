@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 
 .sitetitle {
 font-family: 'Epilogue', sans-serif;
@@ -16,6 +17,7 @@ font-family: 'Epilogue', sans-serif;
 color: #D22B2B; 
 }
 
+
 .launchbtn {
 background-color: #D22B2B;
 color: #fff;
@@ -29,7 +31,7 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 margin: 4px 2px;
-border-radius: 20px;
+border-radius: 22x;
 }
 
 .footer {
@@ -57,23 +59,23 @@ details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: .5em .5em 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 details[open] {
     padding: .5em;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
