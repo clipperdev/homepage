@@ -52,3 +52,28 @@ padding-right: 10px;
     animation: float 3s ease-in-out infinite;
     margin: 50px;
 }
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    font-family: 'Inter', sans-serif;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    font-family: 'Inter', sans-serif;
+}
+
+details[open] {
+    padding: .5em;
+    font-family: 'Inter', sans-serif;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+    font-family: 'Inter', sans-serif;
+}
