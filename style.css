@@ -79,3 +79,8 @@ details[open] summary {
     margin-bottom: .5em;
     font-family: 'Quicksand', sans-serif;
 }
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    color: #D22B2B;
+}
