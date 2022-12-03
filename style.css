@@ -24,6 +24,10 @@ font-family: 'Epilogue', sans-serif;
 color: #FF0000; 
 }
 
+.formtext {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+}
 
 .launchbtn {
 background-color: #FF0000;
