@@ -1,15 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <script>
+    twemoji.parse(document.body)
+  </script>
+  <style>
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
-
-@font-face {
-    font-family: ggsans;
-    src: url(GGSans.ttf); 
-}
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap');
 
 .txt404 {
-    font-family: ggsans;
+    font-family:  'Overpass Mono', monospace;
 }
 
 .small404 {
@@ -141,3 +151,23 @@ a {
     font-family: 'Quicksand', sans-serif;
     color: #FF0000;
 }
+  </style>
+</head>
+<body>
+  <div class="content">
+  <center>
+    <div class="float">
+        <div class="txt404">
+            <h1>404</h1>
+            </div>
+      </div>
+      <element class="small404"
+     <p>This isn't what you're looking for, you might have made a typo in the link, or this page hasn't been released yet.</p>
+    </element>
+     <element class="status">
+        <p><a href="https://twitter.com/Clipper_App">Clipper Status</a></p>
+     </element>
+    </div>
+    </center>
+</body>
+</html>
