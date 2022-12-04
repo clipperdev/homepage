@@ -12,6 +12,11 @@
     font-family: ggsans;
 }
 
+.small404 {
+font-family: 'Quicksand', sans-serif;
+
+}
+
 .sitetitle {
 font-family: 'Epilogue', sans-serif;
 }
@@ -137,3 +142,4 @@ a {
     font-family: 'Quicksand', sans-serif;
     color: #FF0000;
 }
+
