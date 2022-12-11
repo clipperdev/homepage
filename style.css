@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap');
+
+@font-face {
+    font-family: ggsans;
+    src: url(GGSans.ttf); 
+}
 
 .txt404 {
-    font-family:  'Overpass Mono', monospace;
+    font-family: ggsans;
 }
 
 .small404 {
@@ -23,7 +27,7 @@ font-family: 'Epilogue', sans-serif;
     }
 
     @media screen and (max-width:767px) {
-        .content {
+        .faq {
     padding-right: 50px;
     padding-left: 50px;
         }
@@ -137,3 +141,5 @@ a {
     font-family: 'Quicksand', sans-serif;
     color: #FF0000;
 }
+
+
