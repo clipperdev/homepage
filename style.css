@@ -107,9 +107,9 @@ padding-right: 10px;
 }
 
 details {
-    border: 1.50px solid #000;
+    background-color: #dce9fa;
     border-radius: 4px;
-    padding: .5em .5em 0;
+    padding: .7em .11em 0;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -141,5 +141,3 @@ a {
     font-family: 'Quicksand', sans-serif;
     color: #FF0000;
 }
-
-
