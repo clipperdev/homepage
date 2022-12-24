@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Program</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+@font-face {
+    font-family: ggsans;
+    src: url(GGSans.ttf); 
+}
+
+.txt404 {
+    font-family: ggsans;
+}
+
+.small404 {
+font-family: 'Quicksand', sans-serif;
+}
+
+.sitetitle {
+font-family: 'Epilogue', sans-serif;
+}
+
+.sitedescription {
+    font-family: 'Epilogue', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    @media screen and (max-width:767px) {
+        .faq {
+    padding-right: 50px;
+    padding-left: 50px;
+        }
+        }
+
+.redtext {
+color: #FF0000; 
+}
+
+.formtext {
+    align-content: center;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+}
+
+.small-heading-black {
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+}
+
+.black-inter-medium {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+
+.inter-italic-small {
+
+    color: #000;
+    font: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+
+.launchbtn {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+background-color: #FF0000;
+color: #fff;
+font-weight: 300;
+font-size: 16px;
+font-family: 'Epilogue', sans-serif;
+cursor: pointer;
+border: 0;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+border-radius: 18px;
+}
+
+.footer {
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+padding-top: 2px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+@keyframes float {
+    0% { transform: translatey(0px); }
+    50% { transform: translatey(-10px); }
+    100% { transform: translatey(0px); }
+}
+.float {
+    font-size: 3em;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 3s ease-in-out infinite;
+    margin: 50px;
+}
+
+details {
+    background-color: #dce9fa;
+    border-radius: 4px;
+    padding: .7em .11em 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+summary {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+}
+details[open] {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: .5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+details[open] summary {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+}
+
+small {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    color: #FF0000;
+}
+      </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form 
+    name="cpp"
+    action="application-success.html"
+    method="POST"
+    data-netlify="true">
+    <label>I meet the requirements. <select name="cppreq[]" multiple>
+        <option value="cppy">Yes</option>
+        <option value="cppn">No</option>
+      </select></label>
+        <p>
+          <label>Clipper Username: <input type="text" name="username" /></label>
+        </p>
+        <p>
+            <label>Clipper ID: <input type="text" name="cid" /></label>
+          </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+        
+        <p>
+        </p>
+        <p>
+          <label>Note: <textarea name="message"></textarea></label>
+          <small>A message for the reviewer.</small>
+        </p>
+        <p>
+          <button class="launchbtn" type="submit">Apply</button>
+        </p>
+      </form>
+      <hr>
+<small>You will recieve an email regarding your application within 1-2 weeks.</small>
+
+  </center>
+</body>
+</html>
