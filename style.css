@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: ggsans;
-    src: url(GGSans.ttf); 
+    src: url(GGSans.ttf);
 }
 
 .txt404 {
@@ -13,28 +13,28 @@
 }
 
 .small404 {
-font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .sitetitle {
-font-family: 'Epilogue', sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
 .sitedescription {
     font-family: 'Epilogue', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
-    }
+}
 
-    @media screen and (max-width:767px) {
-        .faq {
-    padding-right: 50px;
-    padding-left: 50px;
-        }
-        }
+@media screen and (max-width:767px) {
+    .faq {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
 
 .redtext {
-color: #FF0000; 
+    color: #FF0000;
 }
 
 .formtext {
@@ -70,34 +70,43 @@ color: #FF0000;
     padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
-background-color: #FF0000;
-color: #fff;
-font-weight: 300;
-font-size: 16px;
-font-family: 'Epilogue', sans-serif;
-cursor: pointer;
-border: 0;
-padding: 20px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-margin: 4px 2px;
-border-radius: 18px;
+    background-color: #FF0000;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+    cursor: pointer;
+    border: 0;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 18px;
 }
 
 .footer {
-font-family: 'Inter', sans-serif;
-font-weight: 600;
-padding-top: 2px;
-padding-left: 10px;
-padding-right: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @keyframes float {
-    0% { transform: translatey(0px); }
-    50% { transform: translatey(-10px); }
-    100% { transform: translatey(0px); }
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-10px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
+
 .float {
     font-size: 3em;
     overflow: hidden;
@@ -107,9 +116,10 @@ padding-right: 10px;
 }
 
 details {
-    background-color: #dce9fa;
+    background-color: #efefff;
     border-radius: 4px;
-    padding: .7em .11em 0;
+    padding: -4em .11em 0;
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -132,7 +142,7 @@ details[open] {
 details[open] summary {
     padding-left: 10px;
     padding-right: 10px;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin-bottom: .5em;
     font-family: 'Quicksand', sans-serif;
 }
